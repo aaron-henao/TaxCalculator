@@ -11,6 +11,21 @@ El proyecto "Calculadora de Impuestos" tiene como objetivo desarrollar una aplic
 - Se actualiza según las leyes fiscales vigentes.
 - Es accesible desde cualquier dispositivo y protege la confidencialidad de los datos.
 
+  ## Estructura
+  ├── Calculadora-de-Impuestos-main/
+│   ├── resources/
+│   │   └── estructura_de_carpetas.text
+│   ├── src/
+│   │   ├── CalculadoraDeImpuesto/
+│   │   │   ├── Calculadora.py
+│   │   │   └── FuncionesDeCalculo.py
+│   │   │   └── FuncionesDeEntradaySalida.py
+│   │   ├── Console/
+│   │   │   └── CalculadoraConsola.py
+│   │   │   └── __init__.py
+|   └── test/
+│       └── CalculadoraDeImpuesto_test.py
+
 ## Requisitos del Sistema
 
 - Python 3.x instalado.
