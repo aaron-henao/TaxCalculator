@@ -1,33 +1,19 @@
-# Calculadora de Impuestos
-El proyecto "Calculadora de Impuestos" tiene como objetivo desarrollar una aplicación para calcular la declaración de renta de un asalariado. La aplicación tomará en cuenta diversas entradas, como los ingresos laborales, otros ingresos, retenciones, pagos a la seguridad social, aportes a pensión, créditos hipotecarios, donaciones, y gastos en educación del año. Con esta información, calculará los ingresos gravados y no gravados, los costos deducibles, y finalmente determinará el valor a pagar por el impuesto de renta. Esta herramienta facilitará a los asalariados el proceso de cálculo y presentación de su declaración de renta anual.
+# Tax Calculator
+The "Tax Calculator" project aims to develop an application to calculate the income tax return of an employee. The application will take into account various inputs, such as employment income, other income, withholdings, social security payments, pension contributions, mortgage loans, donations, and education expenses for the year. With this information, you will calculate the taxed and untaxed income, the deductible costs, and finally determine the amount to be paid for income tax. This tool will make it easier for employees to calculate and submit their annual income tax return.
 
-## Características
+## Characteristics
 
-- Automatiza el cálculo del impuesto de renta, minimizando errores y ahorrando tiempo.
-- Permite la entrada de múltiples fuentes de ingresos y deducciones.
-- Calcula deducciones y exenciones para obtener el impuesto final a pagar.
-- Genera reportes detallados con un resumen fiscal claro.
-- Tiene una interfaz sencilla para facilitar el uso por cualquier persona.
-- Se actualiza según las leyes fiscales vigentes.
-- Es accesible desde cualquier dispositivo y protege la confidencialidad de los datos.
+- Automates the calculation of income tax, minimizing errors and saving time.
+- Allows entry of multiple sources of income and deductions.
+- Calculate deductions and exemptions to obtain the final tax to pay.
+- Generate detailed reports with a clear tax summary.
+- It has a simple interface to facilitate use by anyone.
+- It is updated according to current tax laws.
+- It is accessible from any device and protects the confidentiality of data.
 
-  ## Estructura
-─ Calculadora-de-Impuestos-main/
-* resources/
-estructura_de_carpetas.text
-*src/
-*CalculadoraDeImpuesto/
-Calculadora.py
-FuncionesDeCalculo.py
-FuncionesDeEntradaySalida.py
-*Console/
-CalculadoraConsola.py
-__init__.py
-*test/
-CalculadoraDeImpuesto_test.py
+## How to use
+-Aqui va lo que Santiago y Juan Felipe van hacer(Rutas para ejecutar en Cmd o Powershell)
 
-## Requisitos del Sistema
+## System Requirements
 
 - Python 3.x instalado.
-
-## Licencia
