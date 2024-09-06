@@ -22,7 +22,7 @@ Navigate to the folder: Once you have cloned or downloaded the project, open the
 
 ```bash
 
- "cd C:\Users\TuUsuario\Desktop\CalculadoraDeImpuestos"
+ "cd C:\Users\jmgg1326\Desktop\CalculadoraDeImpuestos"
 
 ````
 
