@@ -21,9 +21,9 @@ To run the program outside of the development environment:
 Navigate to the folder: Once you have cloned or downloaded the project, open the command prompt (cmd) or Anaconda Prompt, and navigate to the folder where you saved the project files. For example:
 
 ```bash
-git add README.md
-git commit -m "cd C:\Users\TuUsuario\Desktop\CalculadoraDeImpuestos"
-git push origin main
+
+ "cd C:\Users\TuUsuario\Desktop\CalculadoraDeImpuestos"
+````
 
 ## System Requirements
 
