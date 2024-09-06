@@ -17,3 +17,10 @@ The "Tax Calculator" project aims to develop an application to calculate the inc
 ## System Requirements
 
 - Python 3.x instalado.
+
+## Members
+
+- Juan Manuel García Gómez (jmgg1326)
+- Santiago Perez Jimenez (santti19perez)
+- Juan Felipe Ruiz Yepes (pipe0001)
+
