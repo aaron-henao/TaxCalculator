@@ -11,8 +11,48 @@ The "Tax Calculator" project aims to develop an application to calculate the inc
 - It is updated according to current tax laws.
 - It is accessible from any device and protects the confidentiality of data.
 
-## How to use
--Aqui va lo que Santiago y Juan Felipe van hacer(Rutas para ejecutar en Cmd o Powershell)
+ ## How Do I Run It?
+Prerequisites
+Make sure you have Python installed on your system. No additional external dependencies are required to run the project.
+
+Running the Program
+To run the program outside of the development environment:
+
+Navigate to the folder: Once you have cloned or downloaded the project, open the command prompt (cmd) or Anaconda Prompt, and navigate to the folder where you saved the project files. For example:
+
+bash
+Copiar código
+cd C:\Users\YourUser\Desktop\CalculadoraDeImpuestos
+Run the main script:
+
+bash
+Copiar código
+python scr/console.py
+How Is It Made?
+Project Architecture
+The project is organized into two main folders:
+
+scr: Contains the application's source code.
+test: Contains unit tests to validate the functionality of the code.
+Module Organization
+scr/console.py: Main file for user interaction. Collects user inputs and displays the results.
+scr/FuncionesDeCalculo.py: Contains the logic functions for tax calculation, including input validation and tax computation.
+scr/FuncionesDeEntradaySalida.py: Manages tax rates, deductions, and handles input/output operations.
+Dependencies
+The project does not require external dependencies. It relies on Python's standard libraries.
+
+Usage
+To run the unit tests from the test folder, use the following command:
+
+bash
+Copiar código
+python test/unit_tests.py
+To run the main file, which launches the tax calculator console:
+
+bash
+Copiar código
+python scr/console.py
+
 
 ## System Requirements
 
