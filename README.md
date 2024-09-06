@@ -23,7 +23,49 @@ Navigate to the folder: Once you have cloned or downloaded the project, open the
 ```bash
 
  "cd C:\Users\TuUsuario\Desktop\CalculadoraDeImpuestos"
+
 ````
+
+
+Run the main script:
+
+```bash
+
+python scr/console.py
+
+```
+
+# How Is It Made?
+ ## Project Architecture
+The project is organized into two main folders:
+
+scr: Contains the application's source code.
+test: Contains unit tests to validate the functionality of the code.
+
+## Module Organization
+scr/console.py: Main file for user interaction. Collects user inputs and displays the results.
+scr/FuncionesDeCalculo.py: Contains the logic functions for tax calculation, including input validation and tax computation.
+scr/FuncionesDeEntradaySalida.py: Manages tax rates, deductions, and handles input/output operations.
+# Dependencies
+The project does not require external dependencies. It relies on Python's standard libraries.
+
+# Usage
+To run the unit tests from the test folder, use the following command:
+
+```bash
+
+
+python test/unit_tests.py
+
+```
+
+To run the main file, which launches the tax calculator console:
+
+```bash
+
+python scr/console.py
+
+```
 
 ## System Requirements
 
