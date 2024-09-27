@@ -73,6 +73,23 @@ python scr/console.py
 
 ```
 
+# Usage
+To run the user interface from the cd
+
+```bash
+
+
+cd C:\Users\\Desktop\Taxcalculator-main"
+```
+
+then
+
+```bash
+
+python scr/GUI/Gui.py
+
+```
+
 ## System Requirements
 
 - Python 3.x instalado.
