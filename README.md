@@ -73,7 +73,7 @@ python scr/console.py
 
 ```
 
-# Usage
+# Console use
 To run the user interface from the cd
 
 ```bash
