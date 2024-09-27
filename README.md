@@ -31,9 +31,11 @@ Run the main script:
 
 ```bash
 
-python scr/console.py
+python scr/Console/Calculatorconsole.py
 
 ```
+
+run interface
 
 # How Is It Made?
  ## Project Architecture
