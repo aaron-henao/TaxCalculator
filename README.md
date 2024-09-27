@@ -94,7 +94,7 @@ python scr/GUI/Gui.py
 
 - Python 3.x instalado.
 
-## Members
+## Members.
 
 - Juan Manuel García Gómez (jmgg1326)
 - Santiago Perez Jimenez (santti19perez)
