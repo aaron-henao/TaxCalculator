@@ -92,3 +92,6 @@ def calculate_tax_value(income, deductions):
     tax = taxable_base * tax_rate  # Calculate tax based on the rate
     return tax
 
+
+    
+

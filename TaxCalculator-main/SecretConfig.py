@@ -1,0 +1,5 @@
+DB_HOST = 'ep-purple-wildflower-a5gk09k6.us-east-2.aws.neon.tech'
+DB_PORT = '5432'
+DB_USER = 'neondb_owner'
+DB_PASSWORD = '3qJml4HrwgsS'
+DB_NAME = 'neondb'

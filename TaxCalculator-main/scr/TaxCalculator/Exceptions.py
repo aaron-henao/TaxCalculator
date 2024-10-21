@@ -27,3 +27,9 @@ class NonNumericDeductionError(Exception):
     def __init__(self, message="Deduction must be a number"):
         self.message = message
         super().__init__(self.message)
+
+class UserDontExist(Exception):
+    "Raised when try to serch an user that do not exist"
+    def __init__(self, message="User does not exist"):
+        self.message = message
+        super().__init__(self.message)

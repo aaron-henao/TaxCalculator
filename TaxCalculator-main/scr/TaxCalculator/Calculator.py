@@ -1,6 +1,12 @@
 import sys
-sys.path.append("scr")
-from TaxCalculator.InputOutputFunctions import tax_rate
+import os
+
+sys.path.append(os.path.abspath(os.path.join(os.path.dirname(__file__), '../..')))
+
+from TaxCalculator import Database
+from TaxCalculator.InputOutputFunctions import tax_rate, request_input_data, display_information
+from TaxCalculator.CalculationFunctions import calculate_non_taxable_income
+from TaxCalculator.Exceptions import NonNumericDeductionError, ZeroIncomeError, InvalidDeductionError, InvalidPercentageError, NonNumericIncomeError, UserDontExist
 
 def request_parameter_input(message, default=None, data_type=float):
     """Requests a parameter from the user and handles exceptions."""
@@ -68,3 +74,9 @@ def calculate_taxes(income, deduction, tax_percentage):
     except (NonNumericIncomeError, NonNumericDeductionError, ZeroIncomeError, InvalidDeductionError, InvalidPercentageError) as e:
         print(f"Error: {e}")
 
+def search_user(user_id):
+    """Serch user by ID."""
+    user = Database.get_user_by_id(user_id)
+    if user is None:
+        raise UserDontExist
+    return user 
