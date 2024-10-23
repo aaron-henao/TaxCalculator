@@ -94,6 +94,13 @@ python scr/GUI/Gui.py
 
 - Python 3.x instalado.
 
+# DataBase Use 
+- They must have postgres 16 installed correctly 
+
+- Have the bin folder in the PATH
+ 
+- We have to fill the information with what neontec provides and rename the file as secretConfig
+
 ## Members.
 
 - Juan Manuel García Gómez (jmgg1326)
