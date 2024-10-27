@@ -95,11 +95,60 @@ python scr/GUI/Gui.py
 - Python 3.x instalado.
 
 # DataBase Use 
-- They must have postgres 16 installed correctly 
+Para poder ejecutar el programa tener python instalado, hacer la correcta instalación de Postgresql version 16
 
-- Have the bin folder in the PATH
- 
-- We have to fill the information with what neontec provides and rename the file as secretConfig
+Crear una cuenta en neontech.
+
+En el archivo SecretConfig-sample.py, ingresar la información requerida dada por neontech para hacer la correcta conexion a la base de datos, cambiar el nombre del archivo a "SecretConfig.py"
+
+Navegar a la carpeta: Una vez que haya clonado o descargado el proyecto, abra el símbolo del sistema (cmd) o el símbolo del sistema de Anaconda y navegue hasta la carpeta donde guardó los archivos del proyecto. Por ejemplo:
+
+```bash
+cd C:\Users\\Desktop\Taxcalculator-main
+```
+
+Correr el archivo Database:
+
+```bash
+python scr/TaxCalculator/Database.py
+```
+
+Correr el archivo principal:
+
+```bash
+python scr/Console/Calculatorconsole.py  
+```
+
+Para las pruebas unitarias:
+
+- Correr
+
+```bash
+python scr/TaxCalculator/InputOutputFunctions.py
+```
+- Correr
+
+```bash
+python scr/TaxCalculator/Exceptions.py
+```
+
+- Correr
+
+```bash
+python scr/TaxCalculator/CalculationFunctions.py
+```
+
+- Correr
+
+```bash
+python scr/TaxCalculator/Calculator.py
+```
+
+- Por último correr el archivo
+
+```bash
+python scr/test/TaxCalculator_test.py
+```
 
 ## Members.
 
@@ -107,3 +156,6 @@ python scr/GUI/Gui.py
 - Santiago Perez Jimenez (santti19perez)
 - Juan Felipe Ruiz Yepes (pipe0001)
 
+## Fork Database
+- Tomas Lopez
+- Esteban Parra
